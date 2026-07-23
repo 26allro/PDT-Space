@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDT Space | Home</title>
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
 
@@ -12,12 +12,12 @@
         <div class="logo">PDT Space</div>
         <nav>
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="projects.html">Browse Projects</a></li>
-                <li><a href="cost-estimator.html">Cost Estimator</a></li>
-                <li><a href="sustainability.html">Sustainability Score</a></li>
-                <li><a href="ai-assistant.html">AI Design Assistant</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/projects">Browse Projects</a></li>
+                <li><a href="/cost-estimator">Cost Estimator</a></li>
+                <li><a href="/sustainability">Sustainability Score</a></li>
+                <li><a href="/ai-assistant">AI Design Assistant</a></li>
+                <li><a href="/about">About</a></li>
             </ul>
         </nav>
     </h1>
